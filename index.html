@@ -46,7 +46,7 @@
     <!-- ↑↑最初隠したいコンテンツ ↑↑-->
   </div>
  <style>
- <div class="wrap">
+ <div class="bestro">
      <label for="label1"><h2>▼bes</h2></label>
     <input type="checkbox" id="label1" class="switch" />
     <!-- ↓↓最初隠したいコンテンツ↓↓ -->
@@ -80,7 +80,7 @@ background:yellow;}
   padding: 0;
 }
 
-.wrap label {
+.bestro label {
   display: block;
   color: #blue;
   font-weight: bold;
@@ -88,11 +88,11 @@ background:yellow;}
   cursor: pointer;
 }
 
-.wrap input[type="checkbox"] {
+.bestro input[type="checkbox"] {
   display: none;
 }
 
-.wrap .content {
+.bestro .content {
   height: 0;
   padding: 0;
   overflow: hidden;
@@ -102,7 +102,42 @@ background:yellow;}
   height: auto;
   background: #ffff00;
 }
-  suraman{font-size:35px;}
+   
+</style>
+   <style>
+  body{text-align:center;
+background:orange;}
+  h1{font-size:70px;color:green;}
+  h4{color:lime;}
+  h2{font-size:45px;color:limegreen;}
+  .bestro {
+  margin: 2em 0;
+  padding: 0;
+}
+
+.bestro label {
+  display: block;
+  color: #purple;
+  font-weight: bold;
+  background: green;
+  cursor: pointer;
+}
+
+.bestro input[type="checkbox"] {
+  display: none;
+}
+
+.bestro .content {
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.switch:checked + .content {
+  height: auto;
+  background: #ffa500;
+}
+   
 </style>
 </body>
 </html>
